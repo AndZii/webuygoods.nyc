@@ -1,0 +1,55 @@
+/ Blog Sidebar Widgets Column
+.col-md-4
+  / Blog Search Well
+  .well.hidden-xs
+    %h4 Contacts Staten Island:
+    %h5 
+      %a{:href => "tel:+1-917-450-8209"} +1 (917) 450-8209
+    %h5 
+      %a{:href => "mailto:arthursgold@gmail.com"} arthursgold@gmail.com
+    %h4 Contacts Queens:
+    %h5 
+      %a{:href => "tel:+1-718-846-1600"} +1 (718) 846-1600
+    %h5 
+      %a{:href => "mailto:webuygoodsny@gmail.com"} webuygoodsny@gmail.com
+    / /.input-group
+  / Blog Categories Well
+  .well
+    .row
+      .col-lg-12.text-center
+        %h3 WANTED:
+      .col-lg-6.col-xs-6
+        = image_tag "/wanted-1.jpeg", class: "img-responsive"
+        %p.text-center iPhone 7
+      .col-lg-6.col-xs-6
+        = image_tag "/wanted-2.jpeg", class: "img-responsive"
+        %p.text-center Galaxy S8
+  .well
+    %h4 Info:
+    .row
+      .col-lg-12
+        %ul.list-unstyled
+          - @posts.each do |post|
+            %li
+              = link_to "#{post.second_title}", show_post_path(post.second_title)
+        
+      / /.col-lg-6
+    / /.row
+  / Side Widget Well
+  .well
+    %h4 Send Message
+    = form_for(@message, url: message_path) do |form|
+      .form-group
+        = form.label :name
+        = form.text_field :name, class: "form-control"
+        = form.label :email
+        = form.text_field :email, class: "form-control"
+        = form.label :phone_number
+        = form.text_field :phone_number, class: "form-control"
+        = form.label :message
+        = form.text_area :message, class: "form-control"
+        %br
+        = recaptcha_tags site_key: "6LcKuwwUAAAAAAWBB0JH5MDquWpuBaxuqud71C91"
+        %hr
+        = form.button 'send message', class: "btn btn-info"
+/ /.row
