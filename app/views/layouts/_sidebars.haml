@@ -4,12 +4,15 @@
   .well.hidden-xs
     %h4 Contacts Staten Island:
     %h5 
-      %a{:href => "tel:+1-917-450-8209"} +1 (917) 450-8209
+      = link_to "tel:+1-917-450-8209" do 
+        = "917.450.8209 (Arthur The JeWLer" 
+        %i.fa.fa-diamond 
+        = ")"
     %h5 
       %a{:href => "mailto:arthursgold@gmail.com"} arthursgold@gmail.com
     %h4 Contacts Queens:
     %h5 
-      %a{:href => "tel:+1-718-846-1600"} +1 (718) 846-1600
+      %a{:href => "tel:+1-718-846-1600"} 718.846.1600
     %h5 
       %a{:href => "mailto:webuygoodsny@gmail.com"} webuygoodsny@gmail.com
     / /.input-group

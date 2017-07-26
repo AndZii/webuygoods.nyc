@@ -41,7 +41,7 @@ Post.create(
     #
     url: "silver-diamonds-gold-buyer-of-nyc-staten-island",
     #
-    description: "If you are looking for the best deal to sell your diamonds, gold, silver or jewelry look no further. We are the best in the business. You are guranteed the best price for your items. Selling your diamonds, gold, silver has never been more simple. You are welcomed to come in or simply call us to get a quote and we will guarantee the most out of your items that you want to sell. We buy all diamonds, gold, silver and jewelry whether it is an old enganment ring or simply a pair of old gold earrings we will buy it. Please feel free to call us at anytime for any inquries you may have. We gurantee 100% customer satisfaction.",
+    description: "If you are looking for the best deal to sell your diamonds, gold, silver or jewelry look no further. We are the best in the business. You are guranteed the best price for your items. Selling your diamonds, gold, silver has never been more simple. You are welcomed to come in or simply call us to get a quote and we will guarantee the most out of your items that you want to sell. We buy all diamonds, gold, silver and jewelry whether it is an old enganment ring or simply a pair of old gold earrings we will buy it. Please feel free to call us at anytime for any inquries you may have. We gurantee 100% customer satisfaction. Free Cleaning - Free Appraisals",
     #
     img_alt: "Staten Island Silver, Gold, Diamonds Buyer | Sell My Sylver, Gold, Diamonds NYC",
     #
