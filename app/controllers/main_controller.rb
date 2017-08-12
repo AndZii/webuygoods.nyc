@@ -6,7 +6,7 @@ class MainController < ApplicationController
     @message = Message.new
     @posts = Post.all.first(5)
     @title = "WeBuyGoods.nyc | Sell - Electronics - Handbags - Gold | Staten Island"  
-    @meta_keys = ""
+    @meta_keys = "Sell, Buy, Electronics, Silver, Gold, Handbags, Sneakers, Phones, iPhone, Samsung Galaxy, iPad"
   end      
     
   def contacts
@@ -48,8 +48,8 @@ class MainController < ApplicationController
   def show_post
      @post = Post.where(["second_title = ?", params[:second_title]]).first 
      @title = @post.url
-     @meta_desc = @post.page_desc unless @post.page_desc.nil? || @post.page_desc.empty?
-     @title = @post.page_title unless @post.page_title.nil? || @post.page_title.empty?
-     @meta_keys = @post.page_keys unless @post.page_keys.nil? || @post.page_keys.empty?
+     @meta_desc = @post.page_desc unless (@post.page_desc.nil? || @post.page_desc.empty?)
+     @title = @post.page_title unless (@post.page_title.nil? || @post.page_title.empty?)
+     @meta_keys = @post.page_keys unless (@post.page_keys.nil? || @post.page_keys.empty?)
   end      
 end
