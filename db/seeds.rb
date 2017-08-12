@@ -15,7 +15,7 @@ end
 #Electronics
 Post.create(
     #
-    title: "Cash For Electronics in Manhattan | SoHo | TriBeCa | NoHo | Wall Street", 
+    title: "Cash For Electronics in Manhattan | NYC", 
     #
     second_title: "Top Rated Buyer of Electronics in NYC", 
     #
