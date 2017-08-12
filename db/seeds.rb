@@ -72,4 +72,23 @@ Post.create(
     page_keys: "Handbag, Purse, Louis Vuitton, Chanel, Gucci, Dior, Hermes, Fendi, Cash, Sell")
 
 
+Post.create(
+    #
+    title: "Top Dollar For Sneakers and Accessories In NYC | New York | Bronx", 
+    #
+    second_title: "Sell My Sneakers and Accessories in New York", 
+    #
+    url: "sell-sneakers-accessories-nyc-queens-bronx-manhattan",
+    #
+    description: "Getting Cash for your used Sneakers in NYC has never been easier. No longer do you have to deal with shady buyers on craigslist, or ebay. We took a complicated sneaker selling process and made it safe and simple. You bring your sneakers into our business location in Queens, we have a look at the condition of your sneakers, look up the market value and make you a generous offer. We then fill out the required paperwork veryfing that you are the owner of the sneakers and that you're not selling us stolen property. We can pay you in either Cash or Check depending on prefrence and availabilty. The only thing left for you to do is to enjoy your day.",
+    #
+    img_alt: "Sell Sneakers in Manhattan | Sneaker Buyer of NYC",
+    #
+    img_url: "sneakers.jpg",
+    #
+    post_body: "* Please call us to schedule an appointment and bring your items to the store, estimates based on oral description or pictures are not accurate. You can always leave your item on consignment.",
+    page_title: "SNeakers Buyers of NYC | Sell Sneakers in Manhattan",
+    page_desc: "Top Rated Sneaker Buyer of New York | Where To sell My Skeakers - WeBuyGoods.nyc",
+    page_keys: "sell, buy, jordan, nike, sneakers, louis vuitton, adidas, KD, nyc, new yrok")
+
 
