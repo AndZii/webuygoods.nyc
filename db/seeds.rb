@@ -86,9 +86,8 @@ Post.create(
     #
     img_url: "sneakers.jpg",
     #
-    post_body: "* Please call us to schedule an appointment and bring your items to the store, estimates based on oral description or pictures are not accurate. You can always leave your item on consignment.",
+    post_body: "We buy: Chanel, Louis Vuitton, Susan Bennis, Manolo Blahnik, Moya Bowler, The Chelsea Cobbler, Jimmy Choo, Common Projects, Patrick Cox, Warren Edwards, Liam Fahy, Salvatore Ferragamo, John Fluevog, Maud Frizon, Tinker Hatfield, Terry de Havilland, Emma Hope, Irregular Choice, Joker's Closet, Lauren Jones, Pura Lopez, Christian Louboutin, Steve Madden, Bruno Magli, Charlotte Olympia, Beatrix Ong, Cesare Paciotti, André Perugia, Edward Rayne, Rupert Sanderson, Walter Steiger, Stefi Talman, Chuck Taylor, Collin Thompson, Roger Vivier, Sophia Webster, Stuart Weitzman, Giuseppe Zanotti",
     page_title: "SNeakers Buyers of NYC | Sell Sneakers in Manhattan",
     page_desc: "Top Rated Sneaker Buyer of New York | Where To sell My Skeakers - WeBuyGoods.nyc",
     page_keys: "sell, buy, jordan, nike, sneakers, louis vuitton, adidas, KD, nyc, new yrok")
-
 
